@@ -68,7 +68,7 @@ class FindCharacter():
         self.name = "CharacterName"
 
 class FindCharacter():
-    def __init__(self, strName):
+    def __init__(self, strName:str):
         self.valid = choice([True, False])
         self.x = randint(-1500, 1500)
         self.y = randint(-3000, 3000)
